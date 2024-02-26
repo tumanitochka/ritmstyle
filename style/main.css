@@ -1,0 +1,33 @@
+body {
+    background-color: #162831;
+}
+
+header {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.add-session {
+    background-color: #018ABE;
+    padding: 9px 15px;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+}
+
+.add-session:hover {filter: brightness(1.2);}
+.add-session:active {filter: brightness(1);}
+
+nav {
+    display: flex;
+    gap: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
